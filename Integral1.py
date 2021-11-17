@@ -22,9 +22,11 @@ def integral_1(a,b,sigma,u,n):
         suma_gauss_legendre+=w[i]*fun_iter_gaus_legendre(a,b,z[i],sigma,u)
 
     suma_gauss_legendre=cnt*((b-a)/2)*suma_gauss_legendre
-    print("gauss_legendre:",suma_gauss_legendre)
+    #print("gauss_legendre:",suma_gauss_legendre)
+    return suma_gauss_legendre
 
 
 
-n=int(input("ingresar n: "))
-integral_1(0,5,5,2,n)
+#n=int(input("ingresar n: "))
+
+#integral_1(14,19,3,15,n)

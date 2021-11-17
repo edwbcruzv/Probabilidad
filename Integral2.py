@@ -27,12 +27,16 @@ def integral_principal(a,b,n):
     #print("gauss_legendre:",suma_gauss_legendre)
     return suma_gauss_legendre
 
-def integral_2(a,b,delta):
+def integral_2(b0,bf,delta):
 
-    while b>=a:
-        print("b=",f'{b:.2f}',"  I=",integral_principal(a,b,10))
-        b-=delta
-    
+    lista=[]
 
-integral_2(-6,6,0.02)
-    
+    while True:
+        I=integral_principal(-6,b0,20)
+        #print("b=",f'{b0:.2f}',"  I=",I)
+        lista.append([f'{b0:.2f}',I])
+        if bf>=b0:
+            break
+        b0-=delta
+
+    return lista
