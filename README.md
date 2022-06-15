@@ -1,5 +1,5 @@
 ### Probabilidad
-
+Materia cursada con Angel Salvador Montiel Sanchez en ESCOM-IPN
 # _Estos programas describen dos integrales numericas usando cuadratura de gauss-legendre_
 
 Mas info sobre [gauss-legendere](https://es.wikipedia.org/wiki/Cuadratura_de_Gauss)
